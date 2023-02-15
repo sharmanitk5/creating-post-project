@@ -1,38 +1,176 @@
-.App {
-  text-align: center;
+.App{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(233, 167, 178, 0.838);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.article{
+text-align: left;
+height: 170px;
+background-color: white;
+width: 80%;
+margin: 20px;
+margin-left: 20px;
+padding-left: 30px;
+
+
+
+}
+.head{
+
+  display: inline-block;
+  text-align: left;
+  margin-left: 10px;
+
+}
+.head1{
+ 
+display: inline-block;
+border-right: 2px solid black;
+height: 70vh;
+
+padding: 3px;
+margin-top: 10px;
+margin: 10px;
+padding-right: 10px;
+flex:.3
+  
+ 
+}
+.butt{
+  border-radius: 5px;
+  background-color: black;
+  color:white
+  
+}
+.first{
+
+  margin-left: 20px;
+}
+.second{
+  margin: 10px;
+ 
+}
+.fourth{
+  float: right;
+  margin-top: 13.5px;
+  margin-right: 10px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.third{
+float: right;
+  margin-top: 13.5px;
+  margin-right: 10px;
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
+  text-decoration: underline;
+}
+.colour{
+  color: blue;
+}
+input{
+
+  height:6vh;;
+  border: none;
+  margin: 10px;
+  width: 30vw;
+}
+button{
+ 
+  height: 30px;
+  width: 70px;
+  background-color: black;
+  color:white
+  
+}
+.color{
+background-color: rgb(23, 210, 23);
+height: 2px;
+margin: 0;
+}
+.all{
+
+  margin-left: 100px;
+ display:inline-block;
+  height: 200px;
+  margin-top: 10px;
+  
+}
+.go{
+
+  margin: 10px;
+  height: 30px;
+  width: 70px;
+}
+.flex1{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.f{
+
+  margin: 3px;
+  border-radius: 20px;
+  padding: 2px;
+ background-image: linear-gradient(rgb(255, 0, 0),rgb(222, 150, 17));
+}
+.fs{
+  background-image: linear-gradient(blue,purple);
+}
+.line{
+width: 200px;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+textarea{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  width:96%;
+  
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+resize: none;
+  outline: none;
+  border: none;
+ 
+  background-color: white;
+}
+select{
+
+  width:97%;
+  height: 20px;
+  border: none;
+  padding-top: 2px;
+  
+}
+.newselect{
+
+ margin-top: 1px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  border: 1px solid black;
+  background-color: white;
+  height: 50px;
+  border: none;
+  width:94%;
+  margin-left:10px;
+  padding-left: 15px;
+}
+.username{
+
+  float:right;
+  border: none;
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+
 }
